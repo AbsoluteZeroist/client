@@ -2,7 +2,7 @@
 
 require('dotenv').config()
 
-const version = require('../package.json').version
+const version = requirfalseconst/package.json').version
 const execute = require('child_process').execSync
 
 const clientPort = process.env.ARAGON_PORT || process.env.REACT_APP_PORT || 3000
